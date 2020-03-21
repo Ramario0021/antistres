@@ -1,0 +1,37 @@
+	.box {
+		width: 106px;
+		border: 2px solid black;
+		padding-left: 3px;
+	}
+
+	.box>div {
+		width: 100px;
+		height: 100px;
+		border: 1px solid black;
+		border-radius: 50%;
+
+	}
+
+	#red{
+		background-color:red;
+	}
+
+	#yellow{
+		background-color:yellow;
+	}
+
+	#green{
+		background-color:green;
+	}
+
+	.button7 {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64,199,129);
+  box-shadow: 0 -3px rgb(53,167,110) inset;
+  transition: 0.2s;
+	} 
+	.button7:hover { background: rgb(53, 167, 110); }
